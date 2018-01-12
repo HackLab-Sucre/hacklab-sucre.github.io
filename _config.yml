@@ -1,0 +1,9 @@
+name: HackLab Sucre
+domain: hacklabalmeria.net
+email: contacto@hacklabsucre.net
+encoding: utf-8
+future: true
+
+# Conversion
+highlighter: rouge
+markdown: kramdown
