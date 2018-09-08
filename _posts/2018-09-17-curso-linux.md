@@ -6,17 +6,17 @@ subtitle: 17 de septiembre de 2018 / Sucre
 description: "HackLab Sucre Regresa con los cursos, aprovechando el mes del Estudiante lanzamos el Curso Profesional GNU/Linux"
 #Fecha
 startDate: 2018-09-17T18:30
-endDate: 2018-11-18T20:30
+endDate: 2018-11-25T20:30
 #Lugar
 place: "HackLab Sucre"
 street: "Calle Miguel Angel Valda, 100"
 locality: "Sucre"
-postalCode: "591"
+postalCode: "0591"
 map: https://www.google.es/maps/place/HackLab+Sucre/@-19.0412735,-65.2591987,738m/data=!3m1!1e3!4m12!1m6!3m5!1s0x93fbcf1b0f977ddd:0x5883d248ad7ce480!2sHackLab+Sucre!8m2!3d-19.0412735!4d-65.25701!3m4!1s0x93fbcf1b0f977ddd:0x5883d248ad7ce480!8m2!3d-19.0412735!4d-65.25701
 category: actividades
 
 
-![GNOME 3.30](/recursos/L2.png){: .center}
+![Linux](/recursos/L2.png){: .center}
 
 ### DESCRIPCIÓN
 
