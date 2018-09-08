@@ -54,6 +54,6 @@ Tras la jornada es habitual que parte del grupo nos vayamos de tapeo por las cer
 ---
 ### LOCALIZACIÓN
 
-* Lugar: HackLab Sucre, [HackLab Sucre, Calle Miguel ANgel Valda, Sucre](https://www.google.es/maps/place/HackLab+Sucre/@-19.0412735,-65.2591987,738m/data=!3m1!1e3!4m12!1m6!3m5!1s0x93fbcf1b0f977ddd:0x5883d248ad7ce480!2sHackLab+Sucre!8m2!3d-19.0412735!4d-65.25701!3m4!1s0x93fbcf1b0f977ddd:0x5883d248ad7ce480!8m2!3d-19.0412735!4d-65.25701) 
+* Lugar: Sucre, [HackLab Sucre, Calle Miguel ANgel Valda, Sucre](https://www.google.es/maps/place/HackLab+Sucre/@-19.0412735,-65.2591987,738m/data=!3m1!1e3!4m12!1m6!3m5!1s0x93fbcf1b0f977ddd:0x5883d248ad7ce480!2sHackLab+Sucre!8m2!3d-19.0412735!4d-65.25701!3m4!1s0x93fbcf1b0f977ddd:0x5883d248ad7ce480!8m2!3d-19.0412735!4d-65.25701) 
 * Fecha: **17 de septiembre de 2018**
 * Hora: **de 18:30 a 20:30**
