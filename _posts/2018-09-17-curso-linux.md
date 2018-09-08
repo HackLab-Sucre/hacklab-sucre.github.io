@@ -16,6 +16,8 @@ map: https://www.google.es/maps/place/HackLab+Sucre/@-19.0412735,-65.2591987,738
 category: actividades
 #Redes sociales. Máximo 90 caracteres para el texto
 
+![Marco de trabajo ITIL]({{ site.url }}/recursos/L2.png){:width="200px" align="center"}
+
 ### DESCRIPCIÓN
 
 En este curso aprenderas Linux desde cero. Un curso básico para programadores y administradores de sistemas. Aprenderás a instalar y configurar un sistemas con Linux, utilizar la shell y los comandos básicos, gestionar ficheros y directorios y la administración de procesos y usuarios.
