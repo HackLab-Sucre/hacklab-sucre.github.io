@@ -29,10 +29,7 @@ Necesario traer tu equipo portatil.
 
 - Ninguno.
 
----
-
 ### Contenido
-
 
 |-| **Sistema Operativo GNU/Linux. |
 |-| **Distribuciones GNU/Linux. |
