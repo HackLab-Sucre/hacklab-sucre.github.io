@@ -16,7 +16,6 @@ map: https://www.google.es/maps/place/HackLab+Sucre/@-19.0412735,-65.2591987,738
 category: actividades
 
 
-![Linux](/recursos/L2.png){: .center}
 
 ### DESCRIPCIÓN
 
