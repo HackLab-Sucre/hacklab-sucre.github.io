@@ -15,7 +15,7 @@ postalCode: "0591"
 map: "https://www.google.es/maps/place/HackLab+Sucre/@-19.0412735,-65.2591987,738m/data=!3m1!1e3!4m12!1m6!3m5!1s0x93fbcf1b0f977ddd:0x5883d248ad7ce480!2sHackLab+Sucre!8m2!3d-19.0412735!4d-65.25701!3m4!1s0x93fbcf1b0f977ddd:0x5883d248ad7ce480!8m2!3d-19.0412735!4d-65.25701"
 category: actividades
 ---
-![Curso Profesional GNU/Linux (2018)](/recursos/cursos/2018-09-18-frontend-horario.png){:width="600px" align="middle"}
+![Curso Profesional Fronted Modulo Basico (2018)](/recursos/cursos/2018-09-18-frontend-horario.png){:width="600px" align="middle"}
 ### DESCRIPCIÓN
 
 Conviértete en un desarrollador Frontend y crea páginas web, desde cero y desde tu casa.
