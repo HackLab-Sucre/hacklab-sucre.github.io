@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-jsonld
 #Datos del Evento
 title: "Curso Profesional GNU/Linux"
 subtitle: 17 de septiembre de 2018 / Sucre
@@ -14,9 +14,9 @@ locality: "Sucre"
 postalCode: "591"
 map: https://www.google.es/maps/place/HackLab+Sucre/@-19.0412735,-65.2591987,738m/data=!3m1!1e3!4m12!1m6!3m5!1s0x93fbcf1b0f977ddd:0x5883d248ad7ce480!2sHackLab+Sucre!8m2!3d-19.0412735!4d-65.25701!3m4!1s0x93fbcf1b0f977ddd:0x5883d248ad7ce480!8m2!3d-19.0412735!4d-65.25701
 category: actividades
-#Redes sociales. Máximo 90 caracteres para el texto
 
-![Marco de trabajo ITIL]({{ site.url }}/recursos/L2.png){:width="200px" align="center"}
+
+![GNOME 3.30](/recursos/L2.png){: .center}
 
 ### DESCRIPCIÓN
 
