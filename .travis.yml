@@ -4,9 +4,9 @@ sudo: required
 
 addons:
   sonarcloud:
-    organization: "hacklab-sucre"
+    organization: "hacklabsucre"
     token:
-      secure: "WA2DsDSFcADaHM3gPkM1XRYXadsqxPcsDdniLSagcJDoOURdspzsEOLu+92orjXTU5k4/UN4iZ5PilNRTg3F+03co1eWjRaaWW3taiogVLyPstMwnnRZpi22tw+xzHlGVG3U3l5nGU1zCVi6GYhL0LbyqWpIHNAb4QknOMPg8Mw="
+      secure: "ea3465f161020ebef5d1fa6fbb5b3397885683ce"
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
