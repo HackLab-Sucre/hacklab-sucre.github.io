@@ -23,7 +23,6 @@ script:
   - jekyll build
   - htmlproofer _site --only-4xx
   - sonar-scanner
-  - bundle exec rspec spec
 cache:
   directories:
     - '$HOME/.sonar/cache'
