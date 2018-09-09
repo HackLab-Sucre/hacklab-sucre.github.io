@@ -2,6 +2,8 @@
 [![Build Status](https://travis-ci.org/HackLab-Sucre/hacklab-sucre.github.io.svg?branch=master)](https://travis-ci.org/HackLab-Sucre/hacklab-sucre.github.io)
 [![Coverage Status](https://coveralls.io/repos/github/HackLab-Sucre/hacklab-sucre.github.io/badge.svg?branch=master)](https://coveralls.io/github/HackLab-Sucre/hacklab-sucre.github.io?branch=master)
 [![Join the chat at https://gitter.im/HackLab-Sucre/hacklab-sucre.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/HackLab-Sucre/hacklab-sucre.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![codecov](https://codecov.io/gh/HackLab-Sucre/hacklab-sucre.github.io/branch/master/graph/badge.svg)](https://codecov.io/gh/HackLab-Sucre/hacklab-sucre.github.io)
+
 
 Este es el repositorio de la nueva web del Hacklab Sucre, creada mediante [Jekyll][1], [Markdown][2] y `HTML/CSS`.
 ### ¿Cómo está construida?
