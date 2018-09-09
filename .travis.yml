@@ -17,14 +17,10 @@ jdk:
 install:
   - gem install jekyll
   - gem install html-proofer
-  - pip install --user -r requirements.txt
 script:
   - jekyll build
   - htmlproofer _site --only-4xx
   - sonar-scanner
-  - py.test --cov-report term-missing #--cov=maths
-#  - py.test --doctest-modules --cov=maths3 --cov-report term-missing
-#  - py.test
 cache:
   directories:
     - '$HOME/.sonar/cache'
