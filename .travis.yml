@@ -1,16 +1,17 @@
 language: ruby
 dist: trusty
 sudo: required
-
+go:
+  - tip
+before_install:
+  - go get github.com/mattn/goveralls
+- go get golang.org/x/tools/cmd/cover
 addons:
   sonarcloud:
     organization: "hacklabsucre"
     token:
       secure: "ea3465f161020ebef5d1fa6fbb5b3397885683ce"
 env:
-  - $COVPYYAML=cov3-default,coveralls3
-  - $COVPYYAML=cov4-pyyaml,coveralls4
-  - $COVPYYAML=cov41-pyyaml,coveralls41
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 rvm:
@@ -20,12 +21,11 @@ jdk:
 install:
   - gem install jekyll
   - gem install html-proofer
-  - pip install --user tox
 script:
   - jekyll build
   - htmlproofer _site --only-4xx
   - sonar-scanner
-  - tox -e $(echo py$TRAVIS_PYTHON_VERSION | tr -d . | sed -e 's/pypypy/pypy/')-$COVPYYAML
+  - $GOPATH/bin/goveralls -service=travis-ci
 cache:
   directories:
     - '$HOME/.sonar/cache'
