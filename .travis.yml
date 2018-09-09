@@ -18,6 +18,7 @@ jdk:
 install:
   - gem install jekyll
   - gem install html-proofer
+  - pip install codecov
 script:
   - jekyll build
   - htmlproofer _site --only-4xx
@@ -26,4 +27,4 @@ cache:
   directories:
     - '$HOME/.sonar/cache'
 after_success: 
-  - bash <(curl -s https://codecov.io/bash) -t eed1b96d-f794-4dbf-be89-f4572ced4993
+  - codecov
