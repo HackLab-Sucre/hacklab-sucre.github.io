@@ -22,7 +22,6 @@ script:
   - jekyll build
   - htmlproofer _site --only-4xx
   - sonar-scanner
-  - Coveralls.wear!
 cache:
   directories:
     - '$HOME/.sonar/cache'
