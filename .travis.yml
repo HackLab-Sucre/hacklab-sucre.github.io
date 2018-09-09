@@ -24,3 +24,4 @@ script:
 cache:
   directories:
     - '$HOME/.sonar/cache'
+after_success: coveralls
