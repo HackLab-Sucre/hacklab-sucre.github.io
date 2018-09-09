@@ -26,4 +26,4 @@ cache:
   directories:
     - '$HOME/.sonar/cache'
 after_success: 
-  - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash) -t eed1b96d-f794-4dbf-be89-f4572ced4993
