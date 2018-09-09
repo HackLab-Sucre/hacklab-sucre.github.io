@@ -18,11 +18,15 @@ install:
   - gem install jekyll
   - gem install html-proofer
   - gem install coveralls
+  - gem install bundler -v 1.15.1
 script:
   - jekyll build
   - htmlproofer _site --only-4xx
   - sonar-scanner
+  - bundle exec rspec spec
 cache:
   directories:
     - '$HOME/.sonar/cache'
-after_success: coveralls
+after_success: 
+  - coveralls
+  - bundle exec rake coveralls:push
