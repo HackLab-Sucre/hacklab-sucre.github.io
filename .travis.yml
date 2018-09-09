@@ -18,6 +18,7 @@ jdk:
 install:
   - gem install jekyll
   - gem install html-proofer
+  - pip install --upgrade pip
   - pip install codecov
 script:
   - jekyll build
