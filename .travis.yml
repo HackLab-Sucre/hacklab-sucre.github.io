@@ -10,7 +10,6 @@ addons:
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-    - CODECOV_TOKEN="eed1b96d-f794-4dbf-be89-f4572ced4993"
 rvm:
   - 2.2.5
 jdk:
