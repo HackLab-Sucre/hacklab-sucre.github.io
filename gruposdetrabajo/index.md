@@ -28,7 +28,7 @@ Programadores. Desarrolladores. Administradores de sistemas. DevOps. Profesional
 
 ---
 
-### Comunidad de desarrolladores Android de Almería
+### Comunidad de desarrolladores Android de Sucre
 
 * [Web en G+][3]
 
