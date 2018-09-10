@@ -5,9 +5,10 @@
         "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
     },
     "devDependencies": {
-        "should": "latest",
-        "coveralls": "2.3.0",
-        "istanbul": "0.3.x",
-        "mocha": "2.1.x",
-    },
+        "mocha": "~1.17.1",
+        "chai": "~1.9.0",
+        "sinon": "~1.8.0",
+        "istanbul": "~0.2.4",
+        "coveralls": "~2.7.1"
+    }
 }
