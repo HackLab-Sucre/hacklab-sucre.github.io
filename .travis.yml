@@ -17,16 +17,19 @@ jdk:
 install:
   - gem install jekyll
   - gem install html-proofer
-  - pip install --user -r requirements.txt
+  #- pip install --user -r requirements.txt
   - npm install coveralls --save-dev
   - npm install mocha-lcov-reporter --save-dev
 script:
   - jekyll build
   - htmlproofer _site --only-4xx
   - sonar-scanner
-  - coverage report -m
+  #- coverage report -m
+  - make test-cov
+before_script: 'npm install -g istanbul && npm install -g mocha'
 cache:
   directories:
     - '$HOME/.sonar/cache'
 after_success:
-  - coveralls
+  #- coveralls
+  - make coveralls
