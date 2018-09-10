@@ -20,16 +20,18 @@ install:
   #- pip install --user -r requirements.txt
   #- npm install coveralls --save-dev
   #- npm install mocha-lcov-reporter --save-dev
+  - npm install --save-dev jest
 script:
   - jekyll build
   - htmlproofer _site --only-4xx
   - sonar-scanner
   #- coverage report -m
-  - make test-cov
-before_script: npm install -g istanbul && npm install -g mocha
+  #- make test-cov
+  - jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
+#before_script: npm install -g istanbul && npm install -g mocha
 cache:
   directories:
     - '$HOME/.sonar/cache'
-after_success:
+#after_success:
   #- coveralls
-  - make coveralls
+  #- make coveralls
