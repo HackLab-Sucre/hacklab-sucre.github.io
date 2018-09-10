@@ -25,8 +25,12 @@ install:
   - gem install jekyll
   - gem install html-proofer
   #- pip install --user -r requirements.txt
-  - npm install coveralls --save-dev
-  - npm install mocha-lcov-reporter --save-dev
+  - npm install -g mocha
+  - npm install mocha --save-dev
+  - npm install istanbul --save-dev
+  - npm install --save-dev coveralls mocha-lcov-reporter
+  #- npm install coveralls --save-dev
+  #- npm install mocha-lcov-reporter --save-dev
   #- npm install --save-dev jest
 script:
   - jekyll build
@@ -34,11 +38,12 @@ script:
   - sonar-scanner
   #- coverage report -m
   #- make test-cov
-  - make test-coveralls
+  #- make test-coveralls
 #before_script: npm install -g istanbul && npm install -g mocha
 cache:
   directories:
     - '$HOME/.sonar/cache'
-#after_success:
+after_success:
   #- coveralls
   #- make coveralls
+  - npm run coveralls
