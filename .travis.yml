@@ -18,6 +18,8 @@ install:
   - gem install jekyll
   - gem install html-proofer
   - pip install --user -U pip
+  - pip install python-coveralls
+  - pip install coverage
   - python setup.py develop
 before_script:
   - pip install -r test_requirements.txt
