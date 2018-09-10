@@ -2,8 +2,6 @@ language: ruby
 dist: trusty
 sudo: required
 
-compiler:
-  - gcc
 addons:
   sonarcloud:
     organization: "hacklabsucre"
@@ -12,7 +10,6 @@ addons:
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-    - COVERALLS_TOKEN=gVXWoSj0aCbJngRymVCKxJ0SfLOIVYKzl
 rvm:
   - 2.2.5
 jdk:
@@ -20,15 +17,16 @@ jdk:
 install:
   - gem install jekyll
   - gem install html-proofer
-before_install:
-  - pip install --user cpp-coveralls
+  - wget -q -O - "http://bit.ly/Doveralls" | bash
+  # Or, if you know what version you want, like v1.1.2, you can simply use this instead:
+  #- wget -O doveralls "https://github.com/ColdenCullen/doveralls/releases/download/v1.1.5/doveralls_linux_travis"
+  - chmod +x doveralls
 script:
   - jekyll build
   - htmlproofer _site --only-4xx
   - sonar-scanner
-  - ./configure --enable-gcov && make && make check
+  - dub test -b unittest-cov
+  - ./doveralls
 cache:
   directories:
     - '$HOME/.sonar/cache'
-after_success: 
-  - coveralls --exclude lib --exclude tests --gcov-options '\-lp'
