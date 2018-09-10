@@ -22,7 +22,7 @@ script:
   - jekyll build
   - htmlproofer _site --only-4xx
   - sonar-scanner
-  - coverage run --omit=*.virtualenvs*,*virtualenv*
+  - coverage report -m
 cache:
   directories:
     - '$HOME/.sonar/cache'
