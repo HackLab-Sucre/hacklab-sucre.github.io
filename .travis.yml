@@ -17,7 +17,7 @@ jdk:
 install:
   - gem install jekyll
   - gem install html-proofer
-  - pip install -U pip
+  - pip install --user -U pip
   - python setup.py develop
 before_script:
   - pip install -r test_requirements.txt
