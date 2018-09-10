@@ -20,7 +20,7 @@ install:
   - gem install html-proofer
   #- pip install --user -r requirements.txt
 after_script: 
-  - NODE_ENV=test istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
+  - NODE_ENV=_site istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
 script:
   - jekyll build
   - htmlproofer _site --only-4xx
