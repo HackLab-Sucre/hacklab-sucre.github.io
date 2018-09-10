@@ -1,4 +1,11 @@
+"scripts": {
+    "test": "mocha",
+    "cover": "istanbul cover _mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+  },
 "devDependencies": {
         "should": "latest",
-        "coveralls": "2.3.0"
+        "coveralls": "2.3.0",
+        "istanbul": "0.3.x",
+        "mocha": "2.1.x",
 },
