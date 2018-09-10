@@ -17,8 +17,9 @@ jdk:
 install:
   - gem install jekyll
   - gem install html-proofer
-  - pip install --user -U pip
-  - python setup.py
+  - pip install --user python-coveralls
+  - pip install --user coverage       # Add me to install coverage.py
+  - pip install --user nose  
 before_script:
   - pip install -r test_requirements.txt
   - git clone https://github.com/z4r/python-coveralls-example.git
@@ -31,6 +32,8 @@ script:
   - htmlproofer _site --only-4xx
   - sonar-scanner
   - py.test coveralls/tests.py --doctest-modules --pep8 coveralls -v --cov coveralls --cov-report term-missing
+  - nosetests --with-coverage # Add me to run nose with coverage support.
+  - python setup.py install
 cache:
   directories:
     - '$HOME/.sonar/cache'
