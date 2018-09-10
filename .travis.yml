@@ -2,6 +2,12 @@ language: ruby
 dist: trusty
 sudo: required
 
+node_js:
+  - "node"
+  - "8"
+  - "6"
+  - "5"
+  - "4"
 addons:
   sonarcloud:
     organization: "hacklabsucre"
@@ -10,6 +16,7 @@ addons:
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+    - COVERALLS_REPO_TOKEN=gVXWoSj0aCbJngRymVCKxJ0SfLOIVYKzl
 rvm:
   - 2.2.5
 jdk:
@@ -20,14 +27,14 @@ install:
   #- pip install --user -r requirements.txt
   - npm install coveralls --save-dev
   - npm install mocha-lcov-reporter --save-dev
-  - npm install --save-dev jest
+  #- npm install --save-dev jest
 script:
   - jekyll build
   - htmlproofer _site --only-4xx
   - sonar-scanner
   #- coverage report -m
   #- make test-cov
-  - jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
+  - make test-coveralls
 #before_script: npm install -g istanbul && npm install -g mocha
 cache:
   directories:
