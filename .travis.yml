@@ -18,8 +18,8 @@ install:
   - gem install jekyll
   - gem install html-proofer
   #- pip install --user -r requirements.txt
-  #- npm install coveralls --save-dev
-  #- npm install mocha-lcov-reporter --save-dev
+  - npm install coveralls --save-dev
+  - npm install mocha-lcov-reporter --save-dev
   - npm install --save-dev jest
 script:
   - jekyll build
