@@ -18,7 +18,7 @@ install:
   - gem install jekyll
   - gem install html-proofer
   - pip install --user -U pip
-  - python setup.py install
+  - python setup.py
 before_script:
   - pip install -r test_requirements.txt
   - git clone https://github.com/z4r/python-coveralls-example.git
