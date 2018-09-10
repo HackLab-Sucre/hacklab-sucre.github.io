@@ -20,11 +20,9 @@ category: actividades
 
 El curso permite que los alumnos dominen los conceptos, artefactos y recursos que el programador orientado a objetos en Java, necesita utilizar para desarrollar aplicaciones robustas en esta tecnología.
 
-
 **¿Qué vas a necesitar?**
 
 Necesario traer tu equipo portatil.
-
 
 **Conocimientos previos**
 
