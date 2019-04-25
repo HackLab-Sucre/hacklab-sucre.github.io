@@ -24,6 +24,7 @@ El Festival Latinoamericano de Instalación de Software Libre (FLISoL) es el eve
 
 #### Viernes 26 de Abril 
 | Hora | Charla | Expositor | Ciudad |
+| ---- | ---- | ---- | ---- |
 |16:00 - 16:15|Bienvenidos a las comunidades|Sergio Ochoa|Sucre|
 |16:15 - 16:45|Buenos habitos para aprender a programar|Jose Armando Lopez Rodriguez|Sucre|
 |16:45 - 17:15|El Universo Frontend|Benjamin Castillo|Sucre|
