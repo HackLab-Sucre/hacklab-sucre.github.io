@@ -35,7 +35,7 @@ El Festival Latinoamericano de Instalación de Software Libre (FLISoL) es el eve
 |18:45-19:15 |Herramientas de Google que te haran la vida más fácil|Andre Cornejo||Sucre|
 |19:15-19:45 |Mi dia a dia como Diseñador UI|Laura Risueño|ucre|
 
-**Salon Pequeño - Facultad de Tecnología **
+**Salon Pequeño - Facultad de Tecnología**
 
 #### Sabado 27 de Abril 
 
