@@ -12,7 +12,7 @@ env:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
     - COVERALLS_REPO_TOKEN=gVXWoSj0aCbJngRymVCKxJ0SfLOIVYKzl
 rvm:
-  - 2.2.5
+  - 2.4.1
 jdk:
   - oraclejdk8
 install:
