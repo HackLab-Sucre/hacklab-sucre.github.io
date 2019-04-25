@@ -43,7 +43,6 @@ El Festival Latinoamericano de Instalación de Software Libre (FLISoL) es el eve
 | ---- | ---- | ---- |
 |09:00 |Inauguración y Charla introductoria de Software Libre|Sucre Libre|
 |09:10|Taller: Trabajo colaborativo con GIT |ITGroup Systems|
-|09:35|Taller: Desarrollo Rápido de Aplicaciones con CakePHP 3|ITGroup Systems|
 |10:00|Charla: Administración de Servicios e Infraestructura TI en la Nube.|ITGroup Systems|
 |10:30 a 13:00|Install Fest |Participantes- Comunidades|
 |15:00|Torneo de Super Tux Kart - Modalidad por llaves|Participantes- Comunidades|
