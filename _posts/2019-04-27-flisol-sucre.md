@@ -32,7 +32,7 @@ El Festival Latinoamericano de Instalación de Software Libre (FLISoL) es el eve
 |17:15-17:45 |El Reclutamiento en los Tiempos del SocialMedia|Hugo Hernández - DonChambitas|Mexico|
 |17:45-18:15 |Como ser Freelancer y aportar en proyectos de Software Libre|Sergio Ochoa|Sucre|
 |18:15-18:45 |Como se prepara un junior dev|Felix Alejandro |Sucre|
-|18:45-19:15 |Herramientas de Google que te haran la vida más fácil|Andre Cornejo|Sucre|
+|18:45-19:15 |Herramientas de Google que te haran la vida más fácil|Andrea Cornejo|Sucre|
 |19:15-19:45 |Mi dia a dia como Diseñador UI|Laura Risueño|Sucre|
 
 **Salon Pequeño - Facultad de Tecnología**
