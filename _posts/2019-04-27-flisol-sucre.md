@@ -37,6 +37,7 @@ Salon Pequeño - Facultad de Tecnología
 
 #### Sabado 27 de Abril 
 | Hora | Tema | Expositor |
+| ---- | ---- | ---- |
 |09:00 |Inauguración|Sucre Libre|
 |09:15|Charla introductoria de Software Libre||Sucre Libre|
 |10:00 a 13:00|Install Fest |Participantes- Comunidades|
