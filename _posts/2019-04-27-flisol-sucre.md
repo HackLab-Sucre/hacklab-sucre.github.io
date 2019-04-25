@@ -23,6 +23,7 @@ category: actividades
 El Festival Latinoamericano de Instalación de Software Libre (FLISoL) es el evento de difusión de Software Libre más grande en Latinoamérica. Su 15va versión en Sucre será organizada por la Comunidad de Software Libre "Sucre - Libre", HackLab Sucre.
 
 #### Viernes 26 de Abril 
+
 | Hora | Charla | Expositor | Ciudad |
 | ---- | ---- | ---- | ---- |
 |16:00-16:15 | Bienvenidos a las comunidades |Sergio Ochoa | Sucre |
@@ -36,10 +37,12 @@ El Festival Latinoamericano de Instalación de Software Libre (FLISoL) es el eve
 
 Salon Pequeño - Facultad de Tecnología 
 
+|Hora | Charla | Expositor | Ciudad |
 |18:00-18:15 | Bienvenida |
 |18:15-21:00 | Talleres y charlas (formato Open Space) |
 
 #### Sabado 27 de Abril 
+
 | Hora | Tema | Expositor |
 | ---- | ---- | ---- |
 |09:00 |Inauguración|Sucre Libre|
