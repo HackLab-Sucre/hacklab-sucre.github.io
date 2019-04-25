@@ -30,9 +30,9 @@ El Festival Latinoamericano de Instalación de Software Libre (FLISoL) es el eve
 |16:15-16:45 | Buenos habitos para aprender a programar | Jose Armando Lopez Rodriguez | Sucre |
 |16:45-17:15 |El Universo Frontend|Benjamin Castillo|Sucre|
 |17:15-17:45 |El Reclutamiento en los Tiempos del SocialMedia|Hugo Hernández - DonChambitas|Mexico|
-|17:45-18:15 |Como ser Freelancer y aportar en proyectos de Software Libre||Sergio Ochoa|Sucre|
+|17:45-18:15 |Como ser Freelancer y aportar en proyectos de Software Libre|Sergio Ochoa|Sucre|
 |18:15-18:45 |Como se prepara un junior dev|Felix Alejandro |Sucre|
-|18:45-19:15 |Herramientas de Google que te haran la vida más fácil|Andre Cornejo||Sucre|
+|18:45-19:15 |Herramientas de Google que te haran la vida más fácil|Andre Cornejo|Sucre|
 |19:15-19:45 |Mi dia a dia como Diseñador UI|Laura Risueño|ucre|
 
 **Salon Pequeño - Facultad de Tecnología**
@@ -42,7 +42,7 @@ El Festival Latinoamericano de Instalación de Software Libre (FLISoL) es el eve
 | Hora | Tema | Expositor |
 | ---- | ---- | ---- |
 |09:00 |Inauguración|Sucre Libre|
-|09:15|Charla introductoria de Software Libre||Sucre Libre|
+|09:15|Charla introductoria de Software Libre|Sucre Libre|
 |10:00 a 13:00|Install Fest |Participantes- Comunidades|
 |15:00|Torneo de Super Tux Kart - Modalidad por llaves|Participantes- Comunidades|
 
