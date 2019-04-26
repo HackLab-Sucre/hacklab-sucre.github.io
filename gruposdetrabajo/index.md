@@ -21,7 +21,7 @@ GDG Sucre. nuestra visión es ayudar a los desarrolladores tengan acceso a talle
 
 * Web: [web][3]
 
-Lo que comenzó como una [comunidad de G+][3] para conocernos todos los desarrolladores Android de Almería ha crecido a un gran colectivo
+Lo que comenzó como una [comunidad de G+][3] para conocernos todos los desarrolladores Android ha crecido a un gran colectivo
 de desarrolladores que buscan **aprender y compartir conocimiento**.
 
 Para ello, realizamos distintas actividades sobre el desarrollo Android con distintos niveles y enfoques, desde charlas
