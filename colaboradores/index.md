@@ -7,9 +7,9 @@ Nuestras actividades no serían posibles sin el apoyo de estas organizaciones:
 
 ---
 
-|[ITGroup][1]|
-|[Root Code][2]|
-|[Sucre Libre][3]|
+|[ITGroup][1] |
+|[Root Code][2] |
+|[Sucre Libre][3] |
 
 (Y disculpen si nos olvidamos de algun colaborador.)
 
