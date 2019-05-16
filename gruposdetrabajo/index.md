@@ -32,7 +32,7 @@ magistrales hasta talleres puramente prácticos.
 ### Mujeres y Tecnología
 
 * Web: --
-* En Facebook: comunidad [Linux Chix](https://www.facebook.com/LinuxChixSucre/)
+* En Facebook: comunidad [Linux Chix](https://www.facebook.com/linuxchixbo/)
 
 Nuestro objetivo es fomentar la presencia y las vocaciones femeninas en el mundo científico-técnico mediante acciones y actividades específicas.
 
