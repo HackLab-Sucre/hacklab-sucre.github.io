@@ -5,24 +5,24 @@ title: Recetas
 
 <div class="row">
     <div class="col-md-12">
+        {% assign cat = page.categories  %}
         {% for category in site.categories %}
           <li><a name="{{ category | first }}">{{ category | first }}</a>
             <ul>
              {% for post in category[1] %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                 <article class="post">
-  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-   <div class="entry">
-        {{ post.excerpt }}
-   </div>
-   <a class="button" style="font-size: 12px;" href="{{ site.baseurl }}{{ post.url }}"><span class="fas fa-hand-point-right"></span>&nbsp;Sigue leyendo</a>
-</article>
+              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} {{ cat }}</a></h1>
+               <div class="entry">
+                    {{ post.excerpt }}
+               </div>
+               <a class="button" style="font-size: 12px;" href="{{ site.baseurl }}{{ post.url }}"><span class="fas fa-hand-point-right"></span>&nbsp;Sigue leyendo</a>
+            </article>
                 
               {% endfor %}
              </ul>
           </li>
         {% endfor %}
-        <h2>Próximos345 eventos</h2>
+        <h2>Próximos115 eventos</h2>
         {% assign curDate = site.time | date: "%Y-%m-%d" %}
 
         <ul>
