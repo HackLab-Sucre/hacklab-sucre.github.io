@@ -5,8 +5,9 @@ title: Recetas
 
 <div class="row">
     <div class="col-md-12">
-        {% assign cat = page.categories  %}
         {% for category in site.categories %}
+        {% assign cat = 'recetas'  %}
+           {% if cat == category[0] %}
           <li><a name="{{ category | first }}">{{ category | first }}</a>
             <ul>
              {% for post in category[1] %}
@@ -21,8 +22,9 @@ title: Recetas
               {% endfor %}
              </ul>
           </li>
+        {% endif %}
         {% endfor %}
-        <h2>Próximos115 eventos</h2>
+        <h2>Próximos16785 eventos</h2>
         {% assign curDate = site.time | date: "%Y-%m-%d" %}
 
         <ul>
