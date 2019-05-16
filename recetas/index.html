@@ -12,7 +12,7 @@ title: Recetas
                     <article class="post">
                        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
                        <p class="author">
-                            <span class="date">{{ post.date }}</span>
+                            <span class="date">{{ post.date : "%Y-%m-%d" }}</span> <span class="author">{{ post.author }}</span>
                        </p>
                        <div class="entry">
                             {{ post.excerpt }}
