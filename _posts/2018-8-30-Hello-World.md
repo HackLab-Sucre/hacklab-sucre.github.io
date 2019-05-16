@@ -1,5 +1,5 @@
 ---
-layout: post-jsonld
+layout: post
 title: Mi blog personal
 author: Draexx
 authorweb: https://github.com/draexx
