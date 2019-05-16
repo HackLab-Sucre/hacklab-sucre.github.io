@@ -12,7 +12,7 @@ title: Recetas
                     <article class="post">
                        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
                        <p class="author">
-                            <span class="date">{{ post.date | date_to_string }}</span> | Publicado por <span class="author">{{ post.author }}</span>
+                            Publicado por <span class="author"><a href="{{ post.authorweb }}">{{ post.author }}</a></span> | <span class="date">{{ post.date | date_to_string }}</span> | 
                        </p>
                        <div class="entry">
                             {{ post.excerpt }}
