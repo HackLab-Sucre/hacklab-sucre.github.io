@@ -9,13 +9,13 @@ title: Recetas
           <li><a name="{{ category | first }}">{{ category | first }}</a>
             <ul>
            
-             {% for post in category %}
+             {% for post in category[1] %}
                 <li><a href="{{ post.url }}">{{ post.title }}</a></li>
               {% endfor %}
              </ul>
           </li>
         {% endfor %}
-        <h2>Próximos eventos</h2>
+        <h2>Próximos11 eventos</h2>
         {% assign curDate = site.time | date: "%Y-%m-%d" %}
 
         <ul>
