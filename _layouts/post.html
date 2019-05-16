@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
+{% assign months = "enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre" | split: "|" %}
+{% assign m = page.date | date: "%-m" | minus: 1 %}
+{% assign day = page.date | date: "%d" %}
+{% assign month = months[m] %}
+{% assign year = page.date | date: "%Y" %}
 <div class="container">
     <article>
         <h2>{{ page.title }}</h2>
+        <p>Publicado por: <strong><a href="{{page.authorweb}}">{{page.author}}</a></strong>, {{day}} de {{month}} del {{year}}</p>
         <br>
         <h4>{{ page.subtitle }}</h4>
         <hr class="large">
