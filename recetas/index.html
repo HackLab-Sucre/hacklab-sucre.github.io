@@ -5,17 +5,17 @@ title: Recetas
 
 <div class="row">
     <div class="col-md-12">
-        {% for category in site.categories %}
+        {% for category in page.categories %}
           <li><a name="{{ category | first }}">{{ category | first }}</a>
             <ul>
-           
-             {% for post in category[1] %}
+           {% for post in site.categories[category] %}
+             
                 <li><a href="{{ post.url }}">{{ post.title }}</a></li>
               {% endfor %}
              </ul>
           </li>
         {% endfor %}
-        <h2>Próximos11 eventos</h2>
+        <h2>Próximos221 eventos</h2>
         {% assign curDate = site.time | date: "%Y-%m-%d" %}
 
         <ul>
