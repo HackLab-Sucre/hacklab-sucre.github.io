@@ -24,7 +24,7 @@ title: Recetas
         <ul>
             {% for post in site.posts reversed %}
             {% assign date = post.date | date: "%Y-%m-%d" %}
-            {% if date >= curDate %}
+            {% if date <= curDate %}
             <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
             {% endif %}
             {% endfor %}
