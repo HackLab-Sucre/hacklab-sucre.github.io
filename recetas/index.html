@@ -6,35 +6,22 @@ title: Recetas
 <div class="row">
     <div class="col-md-12">
         {% for category in site.categories %}
-        {% assign cat = 'recetas'  %}
-           {% if cat == category[0] %}
-          <li><a name="{{ category | first }}">{{ category | first }}</a>
-            <ul>
-             {% for post in category[1] %}
-                <article class="post">
-              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} {{ cat }}</a></h1>
-               <div class="entry">
-                    {{ post.excerpt }}
-               </div>
-               <a class="button" style="font-size: 12px;" href="{{ site.baseurl }}{{ post.url }}"><span class="fas fa-hand-point-right"></span>&nbsp;Sigue leyendo</a>
-            </article>
-                
-              {% endfor %}
-             </ul>
-          </li>
-        {% endif %}
-        {% endfor %}
-        <h2>Próximos16785 eventos</h2>
-        {% assign curDate = site.time | date: "%Y-%m-%d" %}
-
-        <ul>
-            {% for post in site.posts reversed %}
-            {% assign date = post.date | date: "%Y-%m-%d" %}
-            {% if date <= curDate %}
-            <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% assign cat = 'recetas'  %}
+            {% if cat == category[0] %}
+                {% for post in category[1] %}
+                    <article class="post">
+                       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                       <p class="author">
+                            <span class="date">{{ post.date }}</span>
+                       </p>
+                       <div class="entry">
+                            {{ post.excerpt }}
+                       </div>
+                       <a class="button" style="font-size: 12px;" href="{{ site.baseurl }}{{ post.url }}"><span class="fas fa-hand-point-right"></span>&nbsp;Sigue leyendo</a>
+                    </article>
+                {% endfor %}
             {% endif %}
-            {% endfor %}
-        </ul>
+        {% endfor %}
     </div>
 
   <!--  <div class="col-md-6">
