@@ -2,6 +2,7 @@
 layout: post
 title: Mi blog personal
 author: Draexx
+authorweb: https://github.com/draexx
 image: /images/ANTONIO-CAMBRONERO-BLOG-CARD.png
 categories: recetas
 published: true
