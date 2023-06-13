@@ -1,5 +1,5 @@
 # hacklab-sucre.github.io
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b5ac110fd97f47099d28ad0b764457d5)](https://app.codacy.com/app/draexx/hacklab-sucre.github.io?utm_source=github.com&utm_medium=referral&utm_content=HackLab-Sucre/hacklab-sucre.github.io&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/404444141f7b440c9b2d01fcc9c4ffe5)](https://app.codacy.com/gh/HackLab-Sucre/hacklab-sucre.github.io/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![Maintainability](https://api.codeclimate.com/v1/badges/de5602a6e643ef60f885/maintainability)](https://codeclimate.com/github/HackLab-Sucre/hacklab-sucre.github.io/maintainability)
 [![Coverage Status](https://coveralls.io/repos/github/HackLab-Sucre/hacklab-sucre.github.io/badge.svg?branch=master)](https://coveralls.io/github/HackLab-Sucre/hacklab-sucre.github.io?branch=master)
 [![Build Status](https://travis-ci.org/HackLab-Sucre/hacklab-sucre.github.io.svg?branch=master)](https://travis-ci.org/HackLab-Sucre/hacklab-sucre.github.io)
